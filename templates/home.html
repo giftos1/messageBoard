@@ -1,0 +1,7 @@
+<h1>Message board homepage</h1>
+<ul>
+    {% for post in posts %}
+    	<li>{{ post }}</li>
+    {% endfor %}
+</ul>
+<h2>Homepage with {{ posts.count }} posts</h2>
